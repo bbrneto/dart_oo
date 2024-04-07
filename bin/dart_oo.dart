@@ -29,23 +29,23 @@ void main() {
   print(manga.isMadura);
   manga.estaMadura(20);
 
-  Fruta tangerina = Fruta.nomeados(
-    nome: 'Tangerina',
-    peso: 80,
-    cor: 'Laranja',
-    sabor: 'Adocicado',
-    diasDesdeColheita: 15,
-  );
-  print(tangerina.nome);
-  print(tangerina);
-  print(tangerina.isMadura);
-  tangerina.estaMadura(20);
+  // Fruta tangerina = Fruta.nomeados(
+  //   nome: 'Tangerina',
+  //   peso: 80,
+  //   cor: 'Laranja',
+  //   sabor: 'Adocicado',
+  //   diasDesdeColheita: 15,
+  // );
+  // print(tangerina.nome);
+  // print(tangerina);
+  // print(tangerina.isMadura);
+  // tangerina.estaMadura(20);
 
-  Fruta pitomba = Fruta.maiusculas('Pitomba', 25, 'Marrom', 'Azedinha', 60);
-  print(pitomba.nome);
-  print(pitomba);
-  print(pitomba.isMadura);
-  pitomba.estaMadura(20);
+  // Fruta pitomba = Fruta.maiusculas('Pitomba', 25, 'Marrom', 'Azedinha', 60);
+  // print(pitomba.nome);
+  // print(pitomba);
+  // print(pitomba.isMadura);
+  // pitomba.estaMadura(20);
 }
 
 // Parâmetro pertence à função -> (int dias).
